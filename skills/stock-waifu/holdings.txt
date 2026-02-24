@@ -1,0 +1,41 @@
+# Satoshi's Stock Holdings
+# Last updated: February 20, 2026
+
+# Canadian ETFs (TSX)
+VFV.TO
+VSP.TO
+XIC.TO
+HXQ.TO
+PFLS.TO
+CGL.TO
+PFMN.TO
+QQU.TO
+
+# US ETFs & Funds
+VOO
+FBTC
+QQQ
+NANC
+GLD
+QTUM
+IBIT
+VTI
+
+# Individual Stocks
+NVDA
+META
+LMT
+MSFT
+AMD
+TSLA
+GOOG
+AMZN
+PLTR
+
+# Leveraged ETFs
+SPXU
+TQQQ
+SOXL
+MAGS
+
+# Note: HSUV/HSUV.U may be delisted - no price data available

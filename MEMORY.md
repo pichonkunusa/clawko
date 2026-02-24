@@ -44,6 +44,14 @@ curl -s 'http://localhost:8000/search/text?query=Hotel%20Secret%20Tokyo&max_resu
 - **Notification:** Cron job delivering periodic updates
 - **Timezone:** EST America/New_York
 
+**Food Preferences:**
+- **Favorite Snack:** Vicenzi Millefoglie Classiche (Italian puff pastry sticks)
+  - Brand: Vicenzi (established 1905)
+  - Type: 192 layers of delicate butter pastry, 125g package
+  - Notes: Sweet, crisp and flaky, good with coffee/tea
+  - First tried: February 23, 2026
+  - User reaction: Wants to buy again
+
 ## Love Hotel Research ✅
 
 **Hotels Found & Saved:**

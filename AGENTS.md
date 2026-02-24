@@ -26,6 +26,36 @@ You wake up fresh each session. These files are your continuity:
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
+### ⚠️ Daily Memory Files - ALWAYS APPEND!
+
+**CRITICAL RULE:** When updating `memory/YYYY-MM-DD.md` files, you MUST append, never overwrite!
+
+**Why:** The `write` tool replaces the entire file. If you write to a daily memory file, you erase all previous entries from that day!
+
+**How to append:**
+1. Read the current file content first
+2. Add your new content to the END of the existing content
+3. Write back the FULL combined content
+
+OR use shell append:
+```bash
+echo "## New Entry
+Content here..." >> memory/2026-02-24.md
+```
+
+**Good pattern:**
+```bash
+cat >> memory/$(date +%Y-%m-%d).md << 'EOF'
+
+## New Section
+- New entry 1
+- New entry 2
+EOF
+```
+
+**When to create a new day's file:**
+If `memory/YYYY-MM-DD.md` doesn't exist yet for today, then using `write` is fine (you're creating, not overwriting).
+
 ### 🧠 MEMORY.md - Your Long-Term Memory
 
 - **ONLY load in main session** (direct chats with your human)

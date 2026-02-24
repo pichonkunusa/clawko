@@ -15,6 +15,23 @@ curl -s 'http://localhost:8000/search/text?query=anime&region=us-en&safesearch=m
 - `search_ddgs.sh` - Text search wrapper (URL-encodes, formats with jq)
 - `skills/image-search/scripts/search_images.sh` - Image search + download to `/tmp/clawko-images/`
 
+## Memory Management 📝
+
+### Daily Memory Files
+**IMPORTANT:** Always APPEND to `memory/YYYY-MM-DD.md` files, never overwrite!
+
+**Script:** `scripts/memory-append.sh`
+- Appends content to today's memory file (or specified date)
+- Creates file with header if it doesn't exist
+- Usage (run with bash): `bash scripts/memory-append.sh "content to append"`
+- Or with date: `bash scripts/memory-append.sh -d 2026-02-24 "content"`
+
+**Manual append method:**
+```bash
+echo "## New Section
+- Something happened" >> memory/2026-02-24.md
+```
+
 ## Model Preferences 🤖
 
 **Default Model:** `zai/glm-4.7`
