@@ -4,3 +4,4 @@ config/
 __pycache__/
 SECRETS.md
 memory/heartbeat-state.json
+.clawhub

@@ -32,6 +32,16 @@ echo "## New Section
 - Something happened" >> memory/2026-02-24.md
 ```
 
+## AgentMail 📬
+
+**Inbox:** `clawkosama@agentmail.to`
+**Platform:** [AgentMail](https://console.agentmail.to)
+**Skill:** `skills/agentmail/`
+
+Use the agentmail skill scripts to send/receive email:
+- `skills/agentmail/scripts/check_inbox.py` - Check for new messages
+- `skills/agentmail/scripts/send_email.py` - Send emails
+
 ## Model Preferences 🤖
 
 **Default Model:** `zai/glm-4.7`
